@@ -49,7 +49,6 @@ pub struct EventLoop;
 impl EventLoop {
     #[inline]
     pub fn new() -> EventLoop { EventLoop }
-    #[inline]
     pub fn run(&self) { loop {} }
 }
 
